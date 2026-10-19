@@ -1,0 +1,10 @@
+.carte-article {
+    width: 300px;
+    background: #f9fafb;
+    border: 2px solid #e5e7eb;
+}
+
+
+.carte-contenu {
+    padding: 30px;
+}
