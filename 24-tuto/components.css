@@ -1,0 +1,27 @@
+
+.carte-article {
+    width: 300px;
+    background: #f9fafb;
+    border: 2px solid #e5e7eb;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.carte-image {
+    display: block;
+}
+
+.carte-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.carte-contenu {
+    padding: 16px;
+}
+
+.carte-contenu h3 {
+    margin-top: 0;
+}
