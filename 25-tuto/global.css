@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+}
+
+.entete {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.entete h1 {
+    margin-bottom: 8px;
+}
+
+.entete p {
+    color: #6b7280;
+}
+
+.conteneur-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+
