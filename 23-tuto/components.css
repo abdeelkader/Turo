@@ -1,0 +1,36 @@
+
+/* Carte d'article */
+.carte-article {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/* Contenu de la carte */
+.carte-contenu {
+    padding: 20px;
+}
+
+/* Titre */
+.carte-contenu h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #111827;
+}
+
+/* Paragraphe */
+.carte-contenu p {
+    margin: 12px 0 0;
+    line-height: 1.6;
+    color: #6b7280;
+}
+
+/* Petite interaction au survol */
+.carte-article:hover {
+    border-color: #3b82f6;
+    transform: translateY(-3px);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}

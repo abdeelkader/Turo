@@ -1,0 +1,11 @@
+
+/* Section des articles */
+.section-articles {
+    padding: 80px 24px;
+}
+
+/* Conteneur centré */
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}

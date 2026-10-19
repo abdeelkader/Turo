@@ -1,0 +1,14 @@
+
+/* Box Model */
+* {
+    box-sizing: border-box;
+}
+
+/* Réglages généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background-color: #f3f4f6;
+}
+
