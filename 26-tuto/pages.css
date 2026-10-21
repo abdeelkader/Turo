@@ -1,0 +1,231 @@
+
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111827;
+    background: #f9fafb;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #0a2042;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+
+nav ul a {
+    color: #374151;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul a:hover {
+    color: #2563eb;
+}
+
+/* Bannière d'accueil */
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+/* Titre de la bannière */
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 56px;
+    color: #0a2042;
+}
+
+/* Texte du titre */
+.banniere-accueil h1 span {
+    color: #2563eb;
+}
+
+/* Paragraphe de la bannière */
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    font-size: 17px;
+    color: #6b7280;
+}
+
+/* Section des articles */
+.section-articles {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 64px 24px;
+}
+
+.section-articles > h2 {
+    margin-bottom: 28px;
+    font-size: 32px;
+    color: #0a2042;
+}
+
+/* Conteneur des cartes */
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* Carte article */
+.carte-article {
+    flex: 1 1 280px;
+    min-width: 0;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carte-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Images des articles */
+.carte-article img {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* Contenu des cartes */
+.article-content {
+    padding: 24px;
+}
+
+.article-content h3 {
+    margin-bottom: 12px;
+    font-size: 21px;
+    color: #0a2042;
+}
+
+.article-content p {
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: #6b7280;
+}
+
+.article-content a {
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
+
+/* Section À propos */
+.section-apropos {
+    max-width: 1102px;
+    margin: 0 auto 50px;
+    padding: 40px 24px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.section-apropos h2 {
+    margin-bottom: 12px;
+    font-size: 30px;
+    color: #0a2042;
+}
+
+.section-apropos p {
+    max-width: 700px;
+    color: #6b7280;
+}
+
+/* Footer */
+footer {
+    padding: 28px 20px;
+    text-align: center;
+    background: #0a2042;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .banniere-accueil {
+        padding: 64px 20px;
+    }
+
+    .banniere-accueil h1 {
+        font-size: 36px;
+    }
+
+    .banniere-accueil p {
+        font-size: 16px;
+    }
+
+    .section-articles {
+        padding: 40px 20px;
+    }
+
+    .section-articles > h2 {
+        font-size: 27px;
+    }
+
+    .section-apropos {
+        margin: 0 20px 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    .banniere-accueil h1 {
+        font-size: 30px;
+    }
+
+    .articles-container {
+        flex-direction: column;
+    }
+}
