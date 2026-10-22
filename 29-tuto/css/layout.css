@@ -1,0 +1,54 @@
+
+/* Pied de page */
+.pied-de-page {
+    margin-top: 80px;
+    padding: 64px 24px 24px;
+    background: white;
+    border-top: 1px solid #e5e7eb;
+}
+
+/* Les 3 colonnes */
+.conteneur-pied-de-page {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colonne-pied-de-page {
+    flex: 1;
+}
+
+.colonne-pied-de-page h2 {
+    margin: 0 0 20px;
+    color: #111827;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.colonne-pied-de-page p,
+.colonne-pied-de-page a {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.colonne-pied-de-page li {
+    margin-bottom: 12px;
+}
+
+/* Bas du pied de page */
+.bas-pied-de-page {
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding-top: 24px;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+.bas-pied-de-page p {
+    margin: 0;
+    color: #9ca3af;
+    font-size: 12px;
+}
