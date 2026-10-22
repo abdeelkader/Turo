@@ -1,0 +1,56 @@
+
+.en-tete-site {
+    padding: 20px 24px;
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+.barre-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logo-sombre {
+    color: #111827;
+}
+
+.logo-couleur {
+    color: #2673e8;
+}
+
+.liens-navigation a {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Flexbox pour les 3 cartes */
+.liste-cartes {
+    display: flex;
+    gap: 20px;
+}
+
+.carte {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+
+.liens-navigation {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
