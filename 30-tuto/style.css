@@ -1,0 +1,116 @@
+
+/* HEADER */
+.en-tete-site {
+    padding: 20px 24px;
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* NAVIGATION */
+.barre-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logo-sombre {
+    color: #111827;
+}
+
+.logo-couleur {
+    color: #2673e8;
+}
+
+.liens-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.liens-navigation a {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* CONTENU PRINCIPAL */
+.section-introduction {
+    margin-bottom: 40px;
+}
+
+/* CARTES D'ARTICLES */
+.liste-cartes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.carte {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+/* PIED DE PAGE */
+.pied-de-page {
+    margin-top: 80px;
+    padding: 64px 24px 24px;
+    background: white;
+    border-top: 1px solid #e5e7eb;
+}
+
+/* LES 3 COLONNES DU FOOTER */
+.conteneur-pied-de-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colonne-pied-de-page {
+    flex: 1;
+}
+
+.colonne-pied-de-page h2 {
+    margin: 0 0 20px;
+    color: #111827;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.colonne-pied-de-page p,
+.colonne-pied-de-page a {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.colonne-pied-de-page li {
+    margin-bottom: 12px;
+}
+
+/* BAS DU FOOTER */
+.bas-pied-de-page {
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding-top: 24px;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+.bas-pied-de-page p {
+    margin: 0;
+    color: #9ca3af;
+    font-size: 12px;
+}
