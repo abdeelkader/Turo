@@ -1,0 +1,40 @@
+css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+}
+
+.filtre-categories {
+    margin: 64px 24px;
+    text-align: center;
+}
+
+.filtre-categories h2 {
+    margin: 0 0 20px;
+    color: #111827;
+    font-size: 18px;
+}
+
+.liste-filtres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pilule-filtre {
+    display: inline-block;
+    padding: 10px 16px;
+    color: #4b5563;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.pilule-filtre.actif {
+    color: white;
+    background: #111827;
+}
+
