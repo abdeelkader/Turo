@@ -1,0 +1,19 @@
+
+
+.bouton-secondaire {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #1f2937;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.bouton-secondaire:hover {
+    background: #f9fafb;
+}
