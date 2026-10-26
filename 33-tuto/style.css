@@ -1,0 +1,24 @@
+
+.liens-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.conteneur-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+
+.conteneur-pied-de-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
